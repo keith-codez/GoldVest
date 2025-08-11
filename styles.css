@@ -1,0 +1,111 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+h1, h2, h5, .navbar-brand {
+  color: #fff;
+}
+
+a, .nav-link {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+a:hover, .nav-link:hover, .list-group-item:hover {
+  color: #ffd700;
+}
+
+.hero-section {
+  background-image: url('Images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.hero-section .content {
+  z-index: 2;
+}
+
+.navbar.bg-black {
+  background-color: #000 !important;
+}
+
+.section-spacing {
+  padding: 80px 0;
+}
+
+.card.custom-card {
+  background-color: #fff;
+  color: #000;
+  border-left: 4px solid #ffd700;
+  transition: transform 0.3s ease;
+}
+
+.card.custom-card:hover {
+  transform: translateY(-5px);
+  border-left-color: #e6c200;
+}
+
+.list-group-item {
+  color: #fff;
+  border: none;
+  background-color: #111;
+}
+
+.btn-primary {
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e6c200;
+  color: #000;
+}
+
+.btn-whatsapp {
+  background-color: #25D366;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebc57;
+  color: white;
+}
+
+.custom-brand-font {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #c8ac0f;
+}
+
+footer {
+  background-color: #111;
+  color: #aaa;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px;
+}
